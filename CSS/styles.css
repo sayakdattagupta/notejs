@@ -1,0 +1,54 @@
+@font-face
+{
+    font-family: RobotoB;
+    src: url(Fonts/Roboto-Bold.woff);
+}
+
+@font-face
+{
+    font-family: Roboto;
+    src: url(Fonts/Roboto-Regular.woff);
+}
+
+.note
+{
+    border-radius: 5px;
+    background-color: rgb(189, 62, 62);
+}
+
+.notein
+{
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-top: 6.25%;
+    padding-bottom: 6.25%;
+}
+
+h1
+{
+    font-family: 'RobotoB';
+}
+
+h5
+{
+    font-family: 'Roboto';
+}
+
+.navbar
+{
+    background-color: rgb(150, 46, 46);
+}
+
+body
+{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+@media screen and (max-width: 720px) {
+    body 
+    {
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+    }
+}
