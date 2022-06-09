@@ -9,6 +9,7 @@ addBtn.addEventListener("click", function(e) {
   } else {
     notesObj = JSON.parse(notes);
   }
+
   notesObj.push(addTxt.value);
   localStorage.setItem("notes", JSON.stringify(notesObj));
   addTxt.value = "";
@@ -25,11 +26,11 @@ function showNotes() {
   let html = "";
   notesObj.forEach(function(element, index) {
     html += `
-            <div class="note" style="width: 18rem;">
+            <div class="note">
                 <div class="notein">
-                    <h5 class="card-title">Note ${index + 1}</h5>
+                    <h2>Note ${index + 1}</h2>
                     <p class="card-text"> ${element}</p>
-                    <button id="${index}"onclick="noteDelete(this.id)" class="btn btn-danger">Delete Note</button>
+                    <button id="${index}"onclick="noteDelete(this.id)">Delete</button>
                 </div>
             </div>`;
   });

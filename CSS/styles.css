@@ -13,7 +13,13 @@
 .note
 {
     border-radius: 5px;
-    background-color: rgb(189, 62, 62);
+    background-color: #FFD600;
+    width:18rem;
+}
+
+.note:hover
+{
+    background-color: #FBC02D;
 }
 
 .notein
@@ -24,7 +30,26 @@
     padding-bottom: 6.25%;
 }
 
+.notein button
+{
+    border: 0ch;
+    border-radius: 5px;
+    padding: 6.25%;
+    background-color: #D32F2F;
+    font-family: 'Roboto';
+}
+
+.notein button:hover
+{
+    background-color: #B71C1C;
+}
+
 h1
+{
+    font-family: 'RobotoB';
+}
+
+h2
 {
     font-family: 'RobotoB';
 }
@@ -36,13 +61,15 @@ h5
 
 .navbar
 {
-    background-color: rgb(150, 46, 46);
+    background-color: #EEEEEE;
+    padding-top: 6.25%;
 }
 
 body
 {
     padding-left: 25%;
     padding-right: 25%;
+    background-color: #EEEEEE;
 }
 
 @media screen and (max-width: 720px) {
@@ -50,5 +77,10 @@ body
     {
         padding-left: 12.5%;
         padding-right: 12.5%;
+    }
+
+    .note
+    {
+        width:22.5rem;
     }
 }
