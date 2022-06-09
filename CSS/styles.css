@@ -13,7 +13,7 @@
 .note
 {
     border-radius: 5px;
-    background-color: #FFD600;
+    background-color: #edca00;
     width:18rem;
 }
 
@@ -35,13 +35,19 @@
     border: 0ch;
     border-radius: 5px;
     padding: 6.25%;
-    background-color: #D32F2F;
+    background-color: #fb1706;
     font-family: 'Roboto';
 }
 
 .notein button:hover
 {
     background-color: #B71C1C;
+}
+
+.notein p
+{
+    font-family: 'Roboto';
+    font-size: 25px;
 }
 
 h1

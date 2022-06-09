@@ -29,10 +29,10 @@ function showNotes() {
             <div class="note">
                 <div class="notein">
                     <h2>Note ${index + 1}</h2>
-                    <p class="card-text"> ${element}</p>
+                    <p>${element}</p>
                     <button id="${index}"onclick="noteDelete(this.id)">Delete</button>
                 </div>
-            </div>`;
+            </div><br>`;
   });
 
   let notesElm = document.getElementById("notes");
